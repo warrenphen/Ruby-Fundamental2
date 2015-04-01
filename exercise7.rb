@@ -12,7 +12,13 @@ def display(cohort)
 	end
 end
 
-
-
 display(students)
 
+cohort_names = students.keys
+puts cohort_names 
+
+students.each do |key, value|
+	students[key] = value * 1.05
+end
+
+display(students)
