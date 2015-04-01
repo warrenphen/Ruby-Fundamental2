@@ -26,3 +26,12 @@ display(students)
 students.delete(:cohort2)
 
 display(students)
+
+x = 0
+students.each do |key, value| 
+	x += value
+
+end
+
+puts x
+
