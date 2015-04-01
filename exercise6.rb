@@ -9,5 +9,7 @@ grocery_list << "rice"
 
 display(grocery_list)
 
+puts grocery_list.length
+
 
 
