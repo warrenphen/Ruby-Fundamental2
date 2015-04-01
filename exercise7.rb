@@ -22,3 +22,7 @@ students.each do |key, value|
 end
 
 display(students)
+
+students.delete(:cohort2)
+
+display(students)
